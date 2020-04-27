@@ -4,114 +4,369 @@ body {
   background-color: #ff9933;
   margin: 0;
 }
+@media screen and (max-width: 479px){
+  /* タイトル */
+  .title {
+    background-color: #ff9933;
+    position: fixed;
+    top : 0;
+    height: 50px;
+    width: 100%;
+  }
+  .title .main p {
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left : 10px;
+    font-size : 12px;
+    font-weight : bold;
+    color : #FFF;
+  }
+  .quote p {
+    position: fixed;
+    margin-top : 6px;
+    margin-bottom : 0px;
+    padding: 0;
+    top : 5px;
+    left : calc(100vw - 240px);
+    font-size : 8px;
+    color : #FFF;
+  }
 
-/* タイトル */
-.title {
-  background-color: #ff9933;
-  position: fixed;
-  top : 0;
-  height: 50px;
-  width: 100%;
+  /* ステージ */
+  .stage {
+    position : fixed;
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    width: 100%;
+    height: 300px;
+  }
+  .stage img {
+    width: 100%;
+    height: 240px;
+    /* width : 100%; */
+  }
+
+  /* OK */
+  .submit {
+    position : fixed;
+    top: 130px;
+    left: calc(50vw - 55px);
+    margin: 0;
+    padding: 0;
+  }
+  .submit img {
+    width : 100px;
+    height: 70px;
+  }
+  .submit button {
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+
+  /* 選択 */
+  .select {
+    position : absolute;
+    padding-top : 300px;
+    padding-left : 30px;
+    left : 35px;
+    width : calc(100vw - 100px);
+    color : #000;
+    background-color : #FFF;
+  }
+  .icon button {
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+  .icon {
+    display: inline-block;
+    text-align: center;
+  }
+  .icon p {
+    padding: 0;
+    margin-top : 0;
+    margin-bottom : 5px;
+  }
+
+  /* 表示キャラ */
+  .chara {
+    position: fixed;
+    top: 65px;
+    left: calc((50vw - 90px) / 2 - 30px);
+    margin : 0;
+    padding: 0;
+  }
+  .chara p {
+    color : #FFF;
+    margin : 0;
+    padding: 0;
+    text-align : center;
+    font-size : 20px;
+    font-weight : bold;
+    background-color : #ff9933;
+    transform: translateY(-6px)
+  }
+  .chara img {
+    width : 100px;
+  }
+  /* 相手キャラ */
+  .opponent {
+    position: fixed;
+    top: 65px;
+    left: calc((50vw - 90px) * 3 / 2 + 105px);
+    margin : 0;
+    padding: 0;
+  }
+  .opponent p {
+    color : #FFF;
+    margin : 0;
+    padding: 0;
+    text-align : center;
+    font-size : 20px;
+    font-weight : bold;
+    background-color : #ff9933;
+    transform: translateY(-6px)
+  }
+  .opponent img {
+    width : 100px;
+  }
+  /* 勝者キャラ */
+  .box2 {
+    position : fixed;
+    width :100%;
+    height : 370px;
+    top : 50px;
+    background-color: #FFF;
+  }
+  .winner {
+    position: fixed;
+    top: 130px;
+    left: calc(50vw - 45px);
+  }
+  .winner img {
+    width: 90px;
+  }
+  .judge {
+    position: fixed;
+    top : 305px;
+    left: calc(50vw - 72.5px);
+    width: 140px;
+    font-size : 20px;
+    font-weight : bold;
+    color : #FFF;
+  }
+  .judge p {
+    text-align : center;
+  }
+  .crown {
+    position : fixed;
+    top: 60px;
+    left: calc(50vw - 200px);
+  }
+  .crown img {
+    width : 400px;
+  }
+  .result {
+    position : fixed;
+    top : 350px;
+    width : 160px;
+    left : calc(50vw - 77.5px);
+    font-size : 24px;
+  }
+  .result p {
+    text-align : center ;
+  }
+  .result img {
+    width : 135px;
+  }
 }
-.title .main p {
-  margin-top: 4px;
-  margin-bottom: 0;
-  margin-left : 20px;
-  font-size : 28px;
-  font-weight : bold;
-  color : #FFF;
-}
-.quote p {
-  position: fixed;
-  margin-top : 2px;
-  margin-bottom : 0px;
-  padding: 0;
-  top : 5px;
-  left : calc(100vw - 290px);
-  font-size : 12px;
-  color : #FFF;
+@media screen and (min-width: 480px){
+  /* タイトル */
+  .title {
+    background-color: #ff9933;
+    position: fixed;
+    top : 0;
+    height: 50px;
+    width: 100%;
+  }
+
+  .title .main p {
+    margin-top: 4px;
+    margin-bottom: 0;
+    margin-left : 20px;
+    font-size : 28px;
+    font-weight : bold;
+    color : #FFF;
+  }
+  .quote p {
+    position: fixed;
+    margin-top : 2px;
+    margin-bottom : 0px;
+    padding: 0;
+    top : 5px;
+    left : calc(100vw - 290px);
+    font-size : 12px;
+    color : #FFF;
+  }
+
+  /* ステージ */
+  .stage {
+    position : fixed;
+    margin: 0;
+    padding: 0;
+    top: 50px;
+    width: 100%;
+    height: 300px;
+  }
+  .stage img {
+    width: 100%;
+    height: 300px;
+    /* width : 100%; */
+  }
+
+  /* OK */
+  .submit {
+    position : fixed;
+    top: 120px;
+    left: calc(50vw - 100px);
+    margin: 0;
+    padding: 0;
+  }
+  .submit img {
+    width : 180px;
+    height: 150px;
+  }
+  .submit button {
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+
+  /* 選択 */
+  .select {
+    position : absolute;
+    padding-top : 370px;
+    padding-left : 30px;
+    left : 35px;
+    width : calc(100vw - 100px);
+    color : #000;
+    background-color : #FFF;
+  }
+  .icon button {
+    margin-left: 1.5%;
+    margin-bottom: 1.5%;
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+  .icon {
+    display: inline-block;
+    text-align: center;
+  }
+  .icon p {
+    padding: 0;
+    margin-top : 0;
+    margin-bottom : 5px;
+  }
+
+  /* 表示キャラ */
+  .chara {
+    position: fixed;
+    top: 65px;
+    left: calc((50vw - 90px) / 2 - 60px);
+    margin : 0;
+    padding: 0;
+  }
+  .chara p {
+    color : #FFF;
+    margin : 0;
+    padding: 0;
+    text-align : center;
+    font-size : 24px;
+    font-weight : bold;
+    background-color : #ff9933;
+    transform: translateY(-6px)
+  }
+  .chara img {
+    width : 135px;
+  }
+  /* 相手キャラ */
+  .opponent {
+    position: fixed;
+    top: 65px;
+    left: calc((50vw - 90px) * 3 / 2 + 100px);
+    margin : 0;
+    padding: 0;
+  }
+  .opponent p {
+    color : #FFF;
+    margin : 0;
+    padding: 0;
+    text-align : center;
+    font-size : 24px;
+    font-weight : bold;
+    background-color : #ff9933;
+    transform: translateY(-6px)
+  }
+  .opponent img {
+    width : 135px;
+  }
+  /* 勝者キャラ */
+  .box2 {
+    position : fixed;
+    width :100%;
+    height : 530px;
+    top : 50px;
+    background-color: #FFF;
+  }
+  .winner {
+    position: fixed;
+    top: 170px;
+    left: calc(50vw - 60px);
+  }
+  .winner img {
+    width : 135px;
+  }
+  .judge {
+    position: fixed;
+    top : 426.5px;
+    left: calc(50vw - 62.5px);
+    width: 140px;
+    font-size : 32px;
+    font-weight : bold;
+    color : #FFF;
+  }
+  .judge p {
+    text-align : center;
+  }
+  .crown {
+    position : fixed;
+    top: 60px;
+    left: calc(50vw - 292.5px);
+  }
+  .crown img {
+    width : 600px;
+  }
+  .result {
+    position : fixed;
+    top : 510px;
+    width : 160px;
+    left : calc(50vw - 70px);
+    font-size : 24px;
+  }
+  .result p {
+    text-align : center ;
+  }
 }
 
-/* ステージ */
-.stage {
-  position : fixed;
-  margin: 0;
-  padding: 0;
-  top: 50px;
-  width: 100%;
-  height: 300px;
-}
-.stage img {
-  width: 100%;
-  height: 300px;
-  /* width : 100%; */
-}
-
-/* OK */
-.submit {
-  position : fixed;
-  top: 120px;
-  left: calc(50vw - 100px);
-  margin: 0;
-  padding: 0;
-}
-.submit img {
-  width : 180px;
-  height: 150px;
-}
-.submit button {
-  margin-left: 1.5%;
-  margin-bottom: 1.5%;
-  padding: 0;
-  border: none;
-  background: transparent;
-}
-
-/* 選択 */
-.select {
-  position : absolute;
-  padding-top : 370px;
-  padding-left : 30px;
-  left : 35px;
-  width : calc(100vw - 100px);
-  color : #000;
-  background-color : #FFF;
-}
-.icon button {
-  margin-left: 1.5%;
-  margin-bottom: 1.5%;
-  padding: 0;
-  border: none;
-  background: transparent;
-}
-.icon {
-  display: inline-block;
-  text-align: center;
-}
-.icon p {
-  padding: 0;
-  margin-top : 0;
-  margin-bottom : 5px;
-}
-
-/* 表示キャラ */
-.chara {
-  position: fixed;
-  top: 65px;
-  left: calc((50vw - 90px) / 2 - 60px);
-  margin : 0;
-  padding: 0;
-}
-.chara p {
-  color : #FFF;
-  margin : 0;
-  padding: 0;
-  text-align : center;
-  font-size : 24px;
-  font-weight : bold;
-  background-color : #ff9933;
-  transform: translateY(-6px)
-}
 .chara .Kisenosato { display: none ;}
 .chara .Myogiryu { display: none ;}
 .chara .Kakuryu { display: none ;}
@@ -192,24 +447,6 @@ body {
 .chara .Kotoshoho { display: none ;}
 .chara .Terunofuji { display: none ;}
 
-/* 相手キャラ */
-.opponent {
-  position: fixed;
-  top: 65px;
-  left: calc((50vw - 90px) * 3 / 2 + 100px);
-  margin : 0;
-  padding: 0;
-}
-.opponent p {
-  color : #FFF;
-  margin : 0;
-  padding: 0;
-  text-align : center;
-  font-size : 24px;
-  font-weight : bold;
-  background-color : #ff9933;
-  transform: translateY(-6px)
-}
 .opponent .Kisenosato3 { display: none ;}
 .opponent .Myogiryu3 { display: none ;}
 .opponent .Kakuryu3 { display: none ;}
@@ -289,50 +526,6 @@ body {
 .opponent .Akua3 { display: none ;}
 .opponent .Kotoshoho3 { display: none ;}
 .opponent .Terunofuji3 { display: none ;}
-
-/* 勝者キャラ */
-.box2 {
-  position : fixed;
-  width :100%;
-  height : 530px;
-  top : 50px;
-  background-color: #FFF;
-}
-.winner {
-  position: fixed;
-  top: 170px;
-  left: calc(50vw - 60px);
-}
-.judge {
-  position: fixed;
-  top : 426.5px;
-  left: calc(50vw - 62.5px);
-  width: 140px;
-  font-size : 32px;
-  font-weight : bold;
-  color : #FFF;
-}
-.judge p {
-  text-align : center;
-}
-.crown {
-  position : fixed;
-  top: 60px;
-  left: calc(50vw - 292.5px);
-}
-.crown img {
-  width : 600px;
-}
-.result {
-  position : fixed;
-  top : 510px;
-  width : 160px;
-  left : calc(50vw - 70px);
-  font-size : 24px;
-}
-.result p {
-  text-align : center ;
-}
 
 .winner .Kisenosato4 { display: none ;}
 .winner .Myogiryu4 { display: none ;}
