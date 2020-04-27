@@ -1,0 +1,415 @@
+/* index.css  */
+
+body {
+  background-color: #ff9933;
+  margin: 0;
+}
+
+/* タイトル */
+.title {
+  background-color: #ff9933;
+  position: fixed;
+  top : 0;
+  height: 50px;
+  width: 100%;
+}
+.title .main p {
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-left : 20px;
+  font-size : 28px;
+  font-weight : bold;
+  color : #FFF;
+}
+.quote p {
+  position: fixed;
+  margin-top : 2px;
+  margin-bottom : 0px;
+  padding: 0;
+  top : 5px;
+  left : calc(100vw - 290px);
+  font-size : 12px;
+  color : #FFF;
+}
+
+/* ステージ */
+.stage {
+  position : fixed;
+  margin: 0;
+  padding: 0;
+  top: 50px;
+  width: 100%;
+  height: 300px;
+}
+.stage img {
+  width: 100%;
+  height: 300px;
+  /* width : 100%; */
+}
+
+/* OK */
+.submit {
+  position : fixed;
+  top: 120px;
+  left: calc(50vw - 100px);
+  margin: 0;
+  padding: 0;
+}
+.submit img {
+  width : 180px;
+  height: 150px;
+}
+.submit button {
+  margin-left: 1.5%;
+  margin-bottom: 1.5%;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+
+/* 選択 */
+.select {
+  position : absolute;
+  padding-top : 370px;
+  padding-left : 30px;
+  left : 35px;
+  width : calc(100vw - 100px);
+  color : #000;
+  background-color : #FFF;
+}
+.icon button {
+  margin-left: 1.5%;
+  margin-bottom: 1.5%;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+.icon {
+  display: inline-block;
+  text-align: center;
+}
+.icon p {
+  padding: 0;
+  margin-top : 0;
+  margin-bottom : 5px;
+}
+
+/* 表示キャラ */
+.chara {
+  position: fixed;
+  top: 65px;
+  left: calc((50vw - 90px) / 2 - 60px);
+  margin : 0;
+  padding: 0;
+}
+.chara p {
+  color : #FFF;
+  margin : 0;
+  padding: 0;
+  text-align : center;
+  font-size : 24px;
+  font-weight : bold;
+  background-color : #ff9933;
+  transform: translateY(-6px)
+}
+.chara .Kisenosato { display: none ;}
+.chara .Myogiryu { display: none ;}
+.chara .Kakuryu { display: none ;}
+.chara .Takayasu { display: none ;}
+.chara .Nishikigi { display: none ;}
+.chara .Hokutofuji { display: none ;}
+.chara .Takakeisho { display: none ;}
+.chara .Shohozan { display: none ;}
+.chara .Kotoshogiku { display: none ;}
+.chara .Aoiyama { display: none ;}
+.chara .Chiyotairyu { display: none ;}
+.chara .Ryuden { display: none ;}
+.chara .Kaisei { display: none ;}
+.chara .Takarafuji { display: none ;}
+.chara .Sadanoumi { display: none ;}
+.chara .Kagayaki { display: none ;}
+.chara .Yago { display: none ;}
+.chara .Yutakayama { display: none ;}
+.chara .Kotoeko { display: none ;}
+.chara .Chiyonokuni { display: none ;}
+.chara .Terutsuyoshi { display: none ;}
+.chara .Takagenji { display: none ;}
+.chara .Aminishiki { display: none ;}
+.chara .Tomokaze { display: none ;}
+.chara .Wakatakakage { display: none ;}
+.chara .Hakuyozan { display: none ;}
+.chara .Azumaryu { display: none ;}
+.chara .Enho { display: none ;}
+.chara .Kyokutaisei { display: none ;}
+.chara .Arawashi { display: none ;}
+.chara .Shimanoumi { display: none ;}
+.chara .Takekaze { display: none ;}
+.chara .Kyokushuho { display: none ;}
+.chara .Chiyonoumi { display: none ;}
+.chara .Gagamaru { display: none ;}
+.chara .Tochiozan { display: none ;}
+.chara .Shodai { display: none ;}
+.chara .Yoshikaze { display: none ;}
+.chara .Daieisho { display: none ;}
+.chara .Endo { display: none ;}
+.chara .Ikioi { display: none ;}
+.chara .Kotoyuki { display: none ;}
+.chara .Daishomaru { display: none ;}
+.chara .Daiamami { display: none ;}
+.chara .Takanosho { display: none ;}
+.chara .Toyonoshima { display: none ;}
+.chara .Akiseyama { display: none ;}
+.chara .Mitoryu { display: none ;}
+.chara .Jokoryu { display: none ;}
+.chara .Ichinojo { display: none ;}
+.chara .Mitakeumi { display: none ;}
+.chara .Daishoho { display: none ;}
+.chara .Ishiura { display: none ;}
+.chara .Chiyomaru { display: none ;}
+.chara .Tobizaru { display: none ;}
+.chara .Sokokurai { display: none ;}
+.chara .Tamawashi { display: none ;}
+.chara .Abi { display: none ;}
+.chara .Meisei { display: none ;}
+.chara .Chiyoshoma { display: none ;}
+.chara .Onosho { display: none ;}
+.chara .Asanoyama { display: none ;}
+.chara .Tokushoryu { display: none ;}
+.chara .Hidenoumi { display: none ;}
+.chara .Okinoumi { display: none ;}
+.chara .Kiribayama { display: none ;}
+.chara .Tsurugisho { display: none ;}
+.chara .Hakuho { display: none ;}
+.chara .Tochinoshin { display: none ;}
+.chara .Wakamotoharu { display: none ;}
+.chara .Churanoumi { display: none ;}
+.chara .Kotonowaka { display: none ;}
+.chara .Kizakiumi { display: none ;}
+.chara .Hoshoryu { display: none ;}
+.chara .Chiyootori { display: none ;}
+.chara .Asagyokusei { display: none ;}
+.chara .Akua { display: none ;}
+.chara .Kotoshoho { display: none ;}
+.chara .Terunofuji { display: none ;}
+
+/* 相手キャラ */
+.opponent {
+  position: fixed;
+  top: 65px;
+  left: calc((50vw - 90px) * 3 / 2 + 100px);
+  margin : 0;
+  padding: 0;
+}
+.opponent p {
+  color : #FFF;
+  margin : 0;
+  padding: 0;
+  text-align : center;
+  font-size : 24px;
+  font-weight : bold;
+  background-color : #ff9933;
+  transform: translateY(-6px)
+}
+.opponent .Kisenosato3 { display: none ;}
+.opponent .Myogiryu3 { display: none ;}
+.opponent .Kakuryu3 { display: none ;}
+.opponent .Takayasu3 { display: none ;}
+.opponent .Nishikigi3 { display: none ;}
+.opponent .Hokutofuji3 { display: none ;}
+.opponent .Takakeisho3 { display: none ;}
+.opponent .Shohozan3 { display: none ;}
+.opponent .Kotoshogiku3 { display: none ;}
+.opponent .Aoiyama3 { display: none ;}
+.opponent .Chiyotairyu3 { display: none ;}
+.opponent .Ryuden3 { display: none ;}
+.opponent .Kaisei3 { display: none ;}
+.opponent .Takarafuji3 { display: none ;}
+.opponent .Sadanoumi3 { display: none ;}
+.opponent .Kagayaki3 { display: none ;}
+.opponent .Yago3 { display: none ;}
+.opponent .Yutakayama3 { display: none ;}
+.opponent .Kotoeko3 { display: none ;}
+.opponent .Chiyonokuni3 { display: none ;}
+.opponent .Terutsuyoshi3 { display: none ;}
+.opponent .Takagenji3 { display: none ;}
+.opponent .Aminishiki3 { display: none ;}
+.opponent .Tomokaze3 { display: none ;}
+.opponent .Wakatakakage3 { display: none ;}
+.opponent .Hakuyozan3 { display: none ;}
+.opponent .Azumaryu3 { display: none ;}
+.opponent .Enho3 { display: none ;}
+.opponent .Kyokutaisei3 { display: none ;}
+.opponent .Arawashi3 { display: none ;}
+.opponent .Shimanoumi3 { display: none ;}
+.opponent .Takekaze3 { display: none ;}
+.opponent .Kyokushuho3 { display: none ;}
+.opponent .Chiyonoumi3 { display: none ;}
+.opponent .Gagamaru3 { display: none ;}
+.opponent .Tochiozan3 { display: none ;}
+.opponent .Shodai3 { display: none ;}
+.opponent .Yoshikaze3 { display: none ;}
+.opponent .Daieisho3 { display: none ;}
+.opponent .Endo3 { display: none ;}
+.opponent .Ikioi3 { display: none ;}
+.opponent .Kotoyuki3 { display: none ;}
+.opponent .Daishomaru3 { display: none ;}
+.opponent .Daiamami3 { display: none ;}
+.opponent .Takanosho3 { display: none ;}
+.opponent .Toyonoshima3 { display: none ;}
+.opponent .Akiseyama3 { display: none ;}
+.opponent .Mitoryu3 { display: none ;}
+.opponent .Jokoryu3 { display: none ;}
+.opponent .Ichinojo3 { display: none ;}
+.opponent .Mitakeumi3 { display: none ;}
+.opponent .Daishoho3 { display: none ;}
+.opponent .Ishiura3 { display: none ;}
+.opponent .Chiyomaru3 { display: none ;}
+.opponent .Tobizaru3 { display: none ;}
+.opponent .Sokokurai3 { display: none ;}
+.opponent .Tamawashi3 { display: none ;}
+.opponent .Abi3 { display: none ;}
+.opponent .Meisei3 { display: none ;}
+.opponent .Chiyoshoma3 { display: none ;}
+.opponent .Onosho3 { display: none ;}
+.opponent .Asanoyama3 { display: none ;}
+.opponent .Tokushoryu3 { display: none ;}
+.opponent .Hidenoumi3 { display: none ;}
+.opponent .Okinoumi3 { display: none ;}
+.opponent .Kiribayama3 { display: none ;}
+.opponent .Tsurugisho3 { display: none ;}
+.opponent .Hakuho3 { display: none ;}
+.opponent .Tochinoshin3 { display: none ;}
+.opponent .Wakamotoharu3 { display: none ;}
+.opponent .Churanoumi3 { display: none ;}
+.opponent .Kotonowaka3 { display: none ;}
+.opponent .Kizakiumi3 { display: none ;}
+.opponent .Hoshoryu3 { display: none ;}
+.opponent .Chiyootori3 { display: none ;}
+.opponent .Asagyokusei3 { display: none ;}
+.opponent .Akua3 { display: none ;}
+.opponent .Kotoshoho3 { display: none ;}
+.opponent .Terunofuji3 { display: none ;}
+
+/* 勝者キャラ */
+.box2 {
+  position : fixed;
+  width :100%;
+  height : 530px;
+  top : 50px;
+  background-color: #FFF;
+}
+.winner {
+  position: fixed;
+  top: 170px;
+  left: calc(50vw - 60px);
+}
+.judge {
+  position: fixed;
+  top : 426.5px;
+  left: calc(50vw - 62.5px);
+  width: 140px;
+  font-size : 32px;
+  font-weight : bold;
+  color : #FFF;
+}
+.judge p {
+  text-align : center;
+}
+.crown {
+  position : fixed;
+  top: 60px;
+  left: calc(50vw - 292.5px);
+}
+.crown img {
+  width : 600px;
+}
+.result {
+  position : fixed;
+  top : 510px;
+  width : 160px;
+  left : calc(50vw - 70px);
+  font-size : 24px;
+}
+.result p {
+  text-align : center ;
+}
+
+.winner .Kisenosato4 { display: none ;}
+.winner .Myogiryu4 { display: none ;}
+.winner .Kakuryu4 { display: none ;}
+.winner .Takayasu4 { display: none ;}
+.winner .Nishikigi4 { display: none ;}
+.winner .Hokutofuji4 { display: none ;}
+.winner .Takakeisho4 { display: none ;}
+.winner .Shohozan4 { display: none ;}
+.winner .Kotoshogiku4 { display: none ;}
+.winner .Aoiyama4 { display: none ;}
+.winner .Chiyotairyu4 { display: none ;}
+.winner .Ryuden4 { display: none ;}
+.winner .Kaisei4 { display: none ;}
+.winner .Takarafuji4 { display: none ;}
+.winner .Sadanoumi4 { display: none ;}
+.winner .Kagayaki4 { display: none ;}
+.winner .Yago4 { display: none ;}
+.winner .Yutakayama4 { display: none ;}
+.winner .Kotoeko4 { display: none ;}
+.winner .Chiyonokuni4 { display: none ;}
+.winner .Terutsuyoshi4 { display: none ;}
+.winner .Takagenji4 { display: none ;}
+.winner .Aminishiki4 { display: none ;}
+.winner .Tomokaze4 { display: none ;}
+.winner .Wakatakakage4 { display: none ;}
+.winner .Hakuyozan4 { display: none ;}
+.winner .Azumaryu4 { display: none ;}
+.winner .Enho4 { display: none ;}
+.winner .Kyokutaisei4 { display: none ;}
+.winner .Arawashi4 { display: none ;}
+.winner .Shimanoumi4 { display: none ;}
+.winner .Takekaze4 { display: none ;}
+.winner .Kyokushuho4 { display: none ;}
+.winner .Chiyonoumi4 { display: none ;}
+.winner .Gagamaru4 { display: none ;}
+.winner .Tochiozan4 { display: none ;}
+.winner .Shodai4 { display: none ;}
+.winner .Yoshikaze4 { display: none ;}
+.winner .Daieisho4 { display: none ;}
+.winner .Endo4 { display: none ;}
+.winner .Ikioi4 { display: none ;}
+.winner .Kotoyuki4 { display: none ;}
+.winner .Daishomaru4 { display: none ;}
+.winner .Daiamami4 { display: none ;}
+.winner .Takanosho4 { display: none ;}
+.winner .Toyonoshima4 { display: none ;}
+.winner .Akiseyama4 { display: none ;}
+.winner .Mitoryu4 { display: none ;}
+.winner .Jokoryu4 { display: none ;}
+.winner .Ichinojo4 { display: none ;}
+.winner .Mitakeumi4 { display: none ;}
+.winner .Daishoho4 { display: none ;}
+.winner .Ishiura4 { display: none ;}
+.winner .Chiyomaru4 { display: none ;}
+.winner .Tobizaru4 { display: none ;}
+.winner .Sokokurai4 { display: none ;}
+.winner .Tamawashi4 { display: none ;}
+.winner .Abi4 { display: none ;}
+.winner .Meisei4 { display: none ;}
+.winner .Chiyoshoma4 { display: none ;}
+.winner .Onosho4 { display: none ;}
+.winner .Asanoyama4 { display: none ;}
+.winner .Tokushoryu4 { display: none ;}
+.winner .Hidenoumi4 { display: none ;}
+.winner .Okinoumi4 { display: none ;}
+.winner .Kiribayama4 { display: none ;}
+.winner .Tsurugisho4 { display: none ;}
+.winner .Hakuho4 { display: none ;}
+.winner .Tochinoshin4 { display: none ;}
+.winner .Wakamotoharu4 { display: none ;}
+.winner .Churanoumi4 { display: none ;}
+.winner .Kotonowaka4 { display: none ;}
+.winner .Kizakiumi4 { display: none ;}
+.winner .Hoshoryu4 { display: none ;}
+.winner .Chiyootori4 { display: none ;}
+.winner .Asagyokusei4 { display: none ;}
+.winner .Akua4 { display: none ;}
+.winner .Kotoshoho4 { display: none ;}
+.winner .Terunofuji4 { display: none ;}

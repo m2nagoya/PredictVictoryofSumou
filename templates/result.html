@@ -1,0 +1,201 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="title">
+  <div class="main">
+    <p>SUMOU vs. (LightGBM)</p>
+  </div>
+</div>
+<div class="quote">
+  <p>< 画像引用元 ><br>日本相撲協会公式サイト http://www.sumo.or.jp/</p>
+</div>
+
+<div class="box2"></div>
+
+<!-- 勝者 -->
+<div class="winner">
+  <div class="Kisenosato4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020024.jpg" width="135px"></div>
+  <div class="Myogiryu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090065.jpg" width="135px"></div>
+  <div class="Kakuryu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20010035.jpg" width="135px"></div>
+  <div class="Takayasu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050022.jpg" width="135px"></div>
+  <div class="Nishikigi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060025.jpg" width="135px"></div>
+  <div class="Hokutofuji4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150042.jpg" width="135px"></div>
+  <div class="Takakeisho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140083.jpg" width="135px"></div>
+  <div class="Shohozan4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060043.jpg" width="135px"></div>
+  <div class="Kotoshogiku4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020002.jpg" width="135px"></div>
+  <div class="Aoiyama4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090067.jpg" width="135px"></div>
+  <div class="Chiyotairyu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110015.jpg" width="135px"></div>
+  <div class="Ryuden4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060023.jpg" width="135px"></div>
+  <div class="Kaisei4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060091.jpg" width="135px"></div>
+  <div class="Takarafuji4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090004.jpg" width="135px"></div>
+  <div class="Sadanoumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20030054.jpg" width="135px"></div>
+  <div class="Kagayaki4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100029.jpg" width="135px"></div>
+  <div class="Yago4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170069.jpg" width="135px"></div>
+  <div class="Yutakayama4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160020.jpg" width="135px"></div>
+  <div class="Kotoeko4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070057.jpg" width="135px"></div>
+  <div class="Chiyonokuni4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060071.jpg" width="135px"></div>
+  <div class="Terutsuyoshi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100052.jpg" width="135px"></div>
+  <div class="Takagenji4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130040.jpg" width="135px"></div>
+  <div class="Aminishiki4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20001080.jpg" width="135px"></div>
+  <div class="Tomokaze4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170071.jpg" width="135px"></div>
+  <div class="Wakatakakage4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170011.jpg" width="135px"></div>
+  <div class="Hakuyozan4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110026.jpg" width="135px"></div>
+  <div class="Azumaryu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080097.jpg" width="135px"></div>
+  <div class="Enho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170053.jpg" width="135px"></div>
+  <div class="Kyokutaisei4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080001.jpg" width="135px"></div>
+  <div class="Arawashi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020093.jpg" width="135px"></div>
+  <div class="Shimanoumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120047.jpg" width="135px"></div>
+  <div class="Takekaze4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020068.jpg" width="135px"></div>
+  <div class="Kyokushuho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070084.jpg" width="135px"></div>
+  <div class="Chiyonoumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150060.jpg" width="135px"></div>
+  <div class="Gagamaru4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050119.jpg" width="135px"></div>
+  <div class="Tochiozan4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050013.jpg" width="135px"></div>
+  <div class="Shodai4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140019.jpg" width="135px"></div>
+  <div class="Yoshikaze4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20040026.jpg" width="135px"></div>
+  <div class="Daieisho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120003.jpg" width="135px"></div>
+  <div class="Endo4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130036.jpg" width="135px"></div>
+  <div class="Ikioi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050033.jpg" width="135px"></div>
+  <div class="Kotoyuki4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080032.jpg" width="135px"></div>
+  <div class="Daishomaru4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140033.jpg" width="135px"></div>
+  <div class="Daiamami4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160002.jpg" width="135px"></div>
+  <div class="Takanosho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100039.jpg" width="135px"></div>
+  <div class="Toyonoshima4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020008.jpg" width="135px"></div>
+  <div class="Akiseyama4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080002.jpg" width="135px"></div>
+  <div class="Mitoryu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170047.jpg" width="135px"></div>
+  <div class="Jokoryu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110055.jpg" width="135px"></div>
+  <div class="Ichinojo4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130077.jpg" width="135px"></div>
+  <div class="Mitakeumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150032.jpg" width="135px"></div>
+  <div class="Daishoho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130002.jpg" width="135px"></div>
+  <div class="Ishiura4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130013.jpg" width="135px"></div>
+  <div class="Chiyomaru4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070085.jpg" width="135px"></div>
+  <div class="Tobizaru4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150005.jpg" width="135px"></div>
+  <div class="Sokokurai4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20030109.jpg" width="135px"></div>
+  <div class="Tamawashi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20040005.jpg" width="135px"></div>
+  <div class="Abi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130059.jpg" width="135px"></div>
+  <div class="Meisei4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110029.jpg" width="135px"></div>
+  <div class="Chiyoshoma4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090066.jpg" width="135px"></div>
+  <div class="Onosho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130005.jpg" width="135px"></div>
+  <div class="Asanoyama4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160019.jpg" width="135px"></div>
+  <div class="Tokushoryu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090002.jpg" width="135px"></div>
+  <div class="Hidenoumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120049.jpg" width="135px"></div>
+  <div class="Okinoumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050003.jpg" width="135px"></div>
+  <div class="Kiribayama4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150034.jpg" width="135px"></div>
+  <div class="Tsurugisho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140002.jpg" width="135px"></div>
+  <div class="Hakuho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20002320.jpg" width="135px"></div>
+  <div class="Tochinoshin4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060028.jpg" width="135px"></div>
+  <div class="Wakamotoharu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110065.jpg" width="135px"></div>
+  <div class="Churanoumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160048.jpg" width="135px"></div>
+  <div class="Kotonowaka4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150081.jpg" width="135px"></div>
+  <div class="Kizakiumi4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20180019.jpg" width="135px"></div>
+  <div class="Hoshoryu4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170096.jpg" width="135px"></div>
+  <div class="Chiyootori4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080084.jpg" width="135px"></div>
+  <div class="Asagyokusei4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160013.jpg" width="135px"></div>
+  <div class="Akua4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100090.jpg" width="135px"></div>
+  <div class="Kotoshoho4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170094.jpg" width="135px"></div>
+  <div class="Terunofuji4"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110008.jpg" width="135px"></div>
+</div>
+<script type="text/javascript">
+  $(document).ready(function () {
+    var name = "{{ winname }}"
+    switch(name) {
+      case "Kisenosato" : $('.Kisenosato4').show(); break;
+      case "Myogiryu" : $('.Myogiryu4').show(); break;
+      case "Kakuryu" : $('.Kakuryu4').show(); break;
+      case "Takayasu" : $('.Takayasu4').show(); break;
+      case "Nishikigi" : $('.Nishikigi4').show(); break;
+      case "Hokutofuji" : $('.Hokutofuji4').show(); break;
+      case "Takakeisho" : $('.Takakeisho4').show(); break;
+      case "Shohozan" : $('.Shohozan4').show(); break;
+      case "Kotoshogiku" : $('.Kotoshogiku4').show(); break;
+      case "Aoiyama" : $('.Aoiyama4').show(); break;
+      case "Chiyotairyu" : $('.Chiyotairyu4').show(); break;
+      case "Ryuden" : $('.Ryuden4').show(); break;
+      case "Kaisei" : $('.Kaisei4').show(); break;
+      case "Takarafuji" : $('.Takarafuji4').show(); break;
+      case "Sadanoumi" : $('.Sadanoumi4').show(); break;
+      case "Kagayaki" : $('.Kagayaki4').show(); break;
+      case "Yago" : $('.Yago4').show(); break;
+      case "Yutakayama" : $('.Yutakayama4').show(); break;
+      case "Kotoeko" : $('.Kotoeko4').show(); break;
+      case "Chiyonokuni" : $('.Chiyonokuni4').show(); break;
+      case "Terutsuyoshi" : $('.Terutsuyoshi4').show(); break;
+      case "Takagenji" : $('.Takagenji4').show(); break;
+      case "Aminishiki" : $('.Aminishiki4').show(); break;
+      case "Tomokaze" : $('.Tomokaze4').show(); break;
+      case "Wakatakakage" : $('.Wakatakakage4').show(); break;
+      case "Hakuyozan" : $('.Hakuyozan4').show(); break;
+      case "Azumaryu" : $('.Azumaryu4').show(); break;
+      case "Enho" : $('.Enho4').show(); break;
+      case "Kyokutaisei" : $('.Kyokutaisei4').show(); break;
+      case "Arawashi" : $('.Arawashi4').show(); break;
+      case "Shimanoumi" : $('.Shimanoumi4').show(); break;
+      case "Takakaze" : $('.Takekaze4').show(); break;
+      case "Kyokushuho" : $('.Kyokushuho4').show(); break;
+      case "Chiyonoumi" : $('.Chiyonoumi4').show(); break;
+      case "Gagamaru" : $('.Gagamaru4').show(); break;
+      case "Tochiozan" : $('.Tochiozan4').show(); break;
+      case "Shodai" : $('.Shodai4').show(); break;
+      case "Yoshikaze" : $('.Yoshikaze4').show(); break;
+      case "Daieisho" : $('.Daieisho4').show(); break;
+      case "Endo" : $('.Endo4').show(); break;
+      case "Ikioi" : $('.Ikioi4').show(); break;
+      case "Kotoyuki" : $('.Kotoyuki4').show(); break;
+      case "Daishomaru" : $('.Daishomaru4').show(); break;
+      case "Daiamami" : $('.Daiamami4').show(); break;
+      case "Takanosho" : $('.Takanosho4').show(); break;
+      case "Toyonoshima" : $('.Toyonoshima4').show(); break;
+      case "Akiseyama" : $('.Akiseyama4').show(); break;
+      case "Mitoryu" : $('.Mitoryu4').show(); break;
+      case "Jokoryu" : $('.Jokoryu4').show(); break;
+      case "Ichinojo" : $('.Ichinojo4').show(); break;
+      case "Mitakeumi" : $('.Mitakeumi4').show(); break;
+      case "Daishoho" : $('.Daishoho4').show(); break;
+      case "Ishiura" : $('.Ishiura4').show(); break;
+      case "Chiyomaru" : $('.Chiyomaru4').show(); break;
+      case "Tobizaru" : $('.Tobizaru4').show(); break;
+      case "Sokokurai" : $('.Sokokurai4').show(); break;
+      case "Tamawashi" : $('.Tamawashi4').show(); break;
+      case "Abi" : $('.Abi4').show(); break;
+      case "Meisei" : $('.Meisei4').show(); break;
+      case "Chiyoshoma" : $('.Chiyoshoma4').show(); break;
+      case "Onosho" : $('.Onosho4').show(); break;
+      case "Asanoyama" : $('.Asanoyama4').show(); break;
+      case "Tokushoryu" : $('.Tokushoryu4').show(); break;
+      case "Hidenoumi" : $('.Hidenoumi4').show(); break;
+      case "Okinoumi" : $('.Okinoumi4').show(); break;
+      case "Kibarayama" : $('.Kiribayama4').show(); break;
+      case "Tsurugisho" : $('.Tsurugisho4').show(); break;
+      case "Hakuho" : $('.Hakuho4').show(); break;
+      case "Tochinoshin" : $('.Tochinoshin4').show(); break;
+      case "Wakamotoharu" : $('.Wakamotoharu4').show(); break;
+      case "Churanoumi" : $('.Churanoumi4').show(); break;
+      case "Kotonowaka" : $('.Kotonowaka4').show(); break;
+      case "Kizakiumi" : $('.Kizakiumi4').show(); break;
+      case "Hoshoryu" : $('.Hoshoryu4').show(); break;
+      case "Chiyootori" : $('.Chiyootori4').show(); break;
+      case "Asagyokusei" : $('.Asagyokusei4').show(); break;
+      case "Akua" : $('.Akua4').show(); break;
+      case "Kotoshoho" : $('.Kotoshoho4').show(); break;
+      case "Terunofuji" : $('.Terunofuji4').show(); break;
+    }
+  })
+</script>
+
+<div class="crown">
+  <img src="https://user-images.githubusercontent.com/51310989/80326619-57de6d00-8874-11ea-9f3f-6f433a187f75.png">
+</div>
+
+<div class="judge">
+  <p>{{ japanese }}</p>
+</div>
+
+
+<!-- <form action="/result" method="post" enctype="multipart/form-data" class="result">
+<input type="file" name="image" accept="image/png, image/jpeg, image/jpg">
+<button type="submit">Upload</button>
+</form> -->
+<div class="result">
+  <p>勝率 {{ result }} %</p>
+</div>
+
+{% endblock %}

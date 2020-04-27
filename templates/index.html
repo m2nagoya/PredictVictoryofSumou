@@ -1,0 +1,524 @@
+<!-- index.html -->
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="select">
+  <div class="icon"><button type="button" id="Kisenosato"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20020024.jpg"></button><p>稀勢の里</p></div>
+  <div class="icon"><button type="button" id="Myogiryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20090065.jpg"></button><p>妙義龍</p></div>
+  <div class="icon"><button type="button" id="Kakuryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20010035.jpg"></button><p>鶴竜</p></div>
+  <div class="icon"><button type="button" id="Takayasu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20050022.jpg"></button><p>高安</p></div>
+  <div class="icon"><button type="button" id="Nishikigi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20060025.jpg"></button><p>錦木</p></div>
+  <div class="icon"><button type="button" id="Hokutofuji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20150042.jpg"></button><p>北勝富士</p></div>
+  <div class="icon"><button type="button" id="Takakeisho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20140083.jpg"></button><p>貴景勝</p></div>
+  <div class="icon"><button type="button" id="Shohozan"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20060043.jpg"></button><p>松鳳山</p></div>
+  <div class="icon"><button type="button" id="Kotoshogiku"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20020002.jpg"></button><p>琴奨菊</p></div>
+  <div class="icon"><button type="button" id="Aoiyama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20090067.jpg"></button><p>碧山</p></div>
+  <div class="icon"><button type="button" id="Chiyotairyu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20110015.jpg"></button><p>千代大龍</p></div>
+  <div class="icon"><button type="button" id="Ryuden"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20060023.jpg"></button><p>竜電</p></div>
+  <div class="icon"><button type="button" id="Kaisei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20060091.jpg"></button><p>魁聖</p></div>
+  <div class="icon"><button type="button" id="Takarafuji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20090004.jpg"></button><p>宝富士</p></div>
+  <div class="icon"><button type="button" id="Sadanoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20030054.jpg"></button><p>佐田の海</p></div>
+  <div class="icon"><button type="button" id="Kagayaki"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20100029.jpg"></button><p>輝</p></div>
+  <div class="icon"><button type="button" id="Yago"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20170069.jpg"></button><p>矢後</p></div>
+  <div class="icon"><button type="button" id="Yutakayama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20160020.jpg"></button><p>豊山</p></div>
+  <div class="icon"><button type="button" id="Kotoeko"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20070057.jpg"></button><p>琴恵光</p></div>
+  <div class="icon"><button type="button" id="Chiyonokuni"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20060071.jpg"></button><p>千代の国</p></div>
+  <div class="icon"><button type="button" id="Terutsuyoshi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20100052.jpg"></button><p>照強</p></div>
+  <div class="icon"><button type="button" id="Takagenji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20130040.jpg"></button><p>貴源治</p></div>
+  <div class="icon"><button type="button" id="Aminishiki"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20001080.jpg"></button><p>安美錦</p></div>
+  <div class="icon"><button type="button" id="Tomokaze"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20170071.jpg"></button><p>友風</p></div>
+  <div class="icon"><button type="button" id="Wakatakakage"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20170011.jpg"></button><p>若隆景</p></div>
+  <div class="icon"><button type="button" id="Hakuyozan"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20110026.jpg"></button><p>白鷹山</p></div>
+  <div class="icon"><button type="button" id="Azumaryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20080097.jpg"></button><p>東龍</p></div>
+  <div class="icon"><button type="button" id="Enho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20170053.jpg"></button><p>炎鵬</p></div>
+  <div class="icon"><button type="button" id="Kyokutaisei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20080001.jpg"></button><p>旭大星</p></div>
+  <div class="icon"><button type="button" id="Arawashi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20020093.jpg"></button><p>荒鷲</p></div>
+  <div class="icon"><button type="button" id="Shimanoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20120047.jpg"></button><p>志摩ノ海</p></div>
+  <div class="icon"><button type="button" id="Takekaze"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20020068.jpg"></button><p>豪風</p></div>
+  <div class="icon"><button type="button" id="Kyokushuho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20070084.jpg"></button><p>旭秀鵬</p></div>
+  <div class="icon"><button type="button" id="Chiyonoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20150060.jpg"></button><p>千代の海</p></div>
+  <div class="icon"><button type="button" id="Gagamaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20050119.jpg"></button><p>臥牙丸</p></div>
+  <div class="icon"><button type="button" id="Tochiozan"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20050013.jpg"></button><p>栃煌山</p></div>
+  <div class="icon"><button type="button" id="Shodai"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20140019.jpg"></button><p>正代</p></div>
+  <div class="icon"><button type="button" id="Yoshikaze"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20040026.jpg"></button><p>嘉風</p></div>
+  <div class="icon"><button type="button" id="Daieisho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20120003.jpg"></button><p>大栄翔</p></div>
+  <div class="icon"><button type="button" id="Endo"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20130036.jpg"></button><p>遠藤</p></div>
+  <div class="icon"><button type="button" id="Ikioi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20050033.jpg"></button><p>勢</p></div>
+  <div class="icon"><button type="button" id="Kotoyuki"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20080032.jpg"></button><p>琴勇輝</p></div>
+  <div class="icon"><button type="button" id="Daishomaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20140033.jpg"></button><p>大翔丸</p></div>
+  <div class="icon"><button type="button" id="Daiamami"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20160002.jpg"></button><p>大奄美</p></div>
+  <div class="icon"><button type="button" id="Takanosho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20100039.jpg"></button><p>隆の勝</p></div>
+  <div class="icon"><button type="button" id="Toyonoshima"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20020008.jpg"></button><p>豊ノ島</p></div>
+  <div class="icon"><button type="button" id="Akiseyama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20080002.jpg"></button><p>明瀬山</p></div>
+  <div class="icon"><button type="button" id="Mitoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20170047.jpg"></button><p>水戸龍</p></div>
+  <div class="icon"><button type="button" id="Jokoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20110055.jpg"></button><p>常幸龍</p></div>
+  <div class="icon"><button type="button" id="Ichinojo"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20130077.jpg"></button><p>逸ノ城</p></div>
+  <div class="icon"><button type="button" id="Mitakeumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20150032.jpg"></button><p>御嶽海</p></div>
+  <div class="icon"><button type="button" id="Daishoho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20130002.jpg"></button><p>大翔鵬</p></div>
+  <div class="icon"><button type="button" id="Ishiura"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20130013.jpg"></button><p>石浦</p></div>
+  <div class="icon"><button type="button" id="Chiyomaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20070085.jpg"></button><p>千代丸</p></div>
+  <div class="icon"><button type="button" id="Tobizaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20150005.jpg"></button><p>翔猿</p></div>
+  <div class="icon"><button type="button" id="Sokokurai"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20030109.jpg"></button><p>蒼国来</p></div>
+  <div class="icon"><button type="button" id="Tamawashi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20040005.jpg"></button><p>玉鷲</p></div>
+  <div class="icon"><button type="button" id="Abi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20130059.jpg"></button><p>阿炎</p></div>
+  <div class="icon"><button type="button" id="Meisei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20110029.jpg"></button><p>明生</p></div>
+  <div class="icon"><button type="button" id="Chiyoshoma"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20090066.jpg"></button><p>千代翔馬</p></div>
+  <div class="icon"><button type="button" id="Onosho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20130005.jpg"></button><p>阿武咲</p></div>
+  <div class="icon"><button type="button" id="Asanoyama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20160019.jpg"></button><p>朝乃山</p></div>
+  <div class="icon"><button type="button" id="Tokushoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20090002.jpg"></button><p>徳勝龍</p></div>
+  <div class="icon"><button type="button" id="Hidenoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20120049.jpg"></button><p>英乃海</p></div>
+  <div class="icon"><button type="button" id="Okinoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20050003.jpg"></button><p>隠岐の海</p></div>
+  <div class="icon"><button type="button" id="Kiribayama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20150034.jpg"></button><p>霧馬山</p></div>
+  <div class="icon"><button type="button" id="Tsurugisho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20140002.jpg"></button><p>剣翔</p></div>
+  <div class="icon"><button type="button" id="Hakuho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20002320.jpg"></button><p>白鵬</p></div>
+  <div class="icon"><button type="button" id="Tochinoshin"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20060028.jpg"></button><p>栃ノ心</p></div>
+  <div class="icon"><button type="button" id="Wakamotoharu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20110065.jpg"></button><p>若元春</p></div>
+  <div class="icon"><button type="button" id="Churanoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20160048.jpg"></button><p>美ノ海</p></div>
+  <div class="icon"><button type="button" id="Kotonowaka"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20150081.jpg"></button><p>琴ノ若</p></div>
+  <div class="icon"><button type="button" id="Kizakiumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20180019.jpg"></button><p>木崎海</p></div>
+  <div class="icon"><button type="button" id="Hoshoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20170096.jpg"></button><p>豊昇龍</p></div>
+  <div class="icon"><button type="button" id="Chiyootori"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20080084.jpg"></button><p>千代鳳</p></div>
+  <div class="icon"><button type="button" id="Asagyokusei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20160013.jpg"></button><p>朝玉勢</p></div>
+  <div class="icon"><button type="button" id="Akua"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20100090.jpg"></button><p>天空海</p></div>
+  <div class="icon"><button type="button" id="Kotoshoho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20170094.jpg"></button><p>琴勝峰</p></div>
+  <div class="icon"><button type="button" id="Terunofuji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/60x60/20110008.jpg"></button><p>照ノ富士</p></div>
+</div>
+
+<div class="title">
+  <div class="main">
+    <p>SUMOU vs. (LightGBM)</p>
+  </div>
+</div>
+<div class="quote">
+  <p>< 画像引用元 ><br>日本相撲協会公式サイト http://www.sumo.or.jp/</p>
+</div>
+
+<div class="stage">
+  <img src="https://user-images.githubusercontent.com/51310989/80297738-fe693600-87c0-11ea-8ac1-865c5ea6b59e.jpg" width=200 class="frame">
+</div>
+
+<div class="submit">
+  <form action="/result" method="post" enctype="multipart/form-data">
+    <button type="submit" value="" name="vs" id="submit">
+      <img src="https://user-images.githubusercontent.com/51310989/80297743-01642680-87c1-11ea-998d-0c77a0d62b2b.png" width=200 >
+    </button>
+  </form>
+</div>
+
+<!-- 選択キャラ -->
+<div class="chara">
+  <div class="Kisenosato"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020024.jpg" width="135px"><p>稀勢の里</p></div>
+  <div class="Myogiryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090065.jpg" width="135px"><p>妙義龍</p></div>
+  <div class="Kakuryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20010035.jpg" width="135px"><p>鶴竜</p></div>
+  <div class="Takayasu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050022.jpg" width="135px"><p>高安</p></div>
+  <div class="Nishikigi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060025.jpg" width="135px"><p>錦木</p></div>
+  <div class="Hokutofuji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150042.jpg" width="135px"><p>北勝富士</p></div>
+  <div class="Takakeisho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140083.jpg" width="135px"><p>貴景勝</p></div>
+  <div class="Shohozan"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060043.jpg" width="135px"><p>松鳳山</p></div>
+  <div class="Kotoshogiku"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020002.jpg" width="135px"><p>琴奨菊</p></div>
+  <div class="Aoiyama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090067.jpg" width="135px"><p>碧山</p></div>
+  <div class="Chiyotairyu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110015.jpg" width="135px"><p>千代大龍</p></div>
+  <div class="Ryuden"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060023.jpg" width="135px"><p>竜電</p></div>
+  <div class="Kaisei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060091.jpg" width="135px"><p>魁聖</p></div>
+  <div class="Takarafuji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090004.jpg" width="135px"><p>宝富士</p></div>
+  <div class="Sadanoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20030054.jpg" width="135px"><p>佐田の海</p></div>
+  <div class="Kagayaki"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100029.jpg" width="135px"><p>輝</p></div>
+  <div class="Yago"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170069.jpg" width="135px"><p>矢後</p></div>
+  <div class="Yutakayama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160020.jpg" width="135px"><p>豊山</p></div>
+  <div class="Kotoeko"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070057.jpg" width="135px"><p>琴恵光</p></div>
+  <div class="Chiyonokuni"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060071.jpg" width="135px"><p>千代の国</p></div>
+  <div class="Terutsuyoshi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100052.jpg" width="135px"><p>照強</p></div>
+  <div class="Takagenji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130040.jpg" width="135px"><p>貴源治</p></div>
+  <div class="Aminishiki"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20001080.jpg" width="135px"><p>安美錦</p></div>
+  <div class="Tomokaze"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170071.jpg" width="135px"><p>友風</p></div>
+  <div class="Wakatakakage"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170011.jpg" width="135px"><p>若隆景</p></div>
+  <div class="Hakuyozan"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110026.jpg" width="135px"><p>白鷹山</p></div>
+  <div class="Azumaryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080097.jpg" width="135px"><p>東龍</p></div>
+  <div class="Enho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170053.jpg" width="135px"><p>炎鵬</p></div>
+  <div class="Kyokutaisei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080001.jpg" width="135px"><p>旭大星</p></div>
+  <div class="Arawashi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020093.jpg" width="135px"><p>荒鷲</p></div>
+  <div class="Shimanoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120047.jpg" width="135px"><p>志摩ノ海</p></div>
+  <div class="Takekaze"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020068.jpg" width="135px"><p>豪風</p></div>
+  <div class="Kyokushuho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070084.jpg" width="135px"><p>旭秀鵬</p></div>
+  <div class="Chiyonoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150060.jpg" width="135px"><p>千代の海</p></div>
+  <div class="Gagamaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050119.jpg" width="135px"><p>臥牙丸</p></div>
+  <div class="Tochiozan"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050013.jpg" width="135px"><p>栃煌山</p></div>
+  <div class="Shodai"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140019.jpg" width="135px"><p>正代</p></div>
+  <div class="Yoshikaze"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20040026.jpg" width="135px"><p>嘉風</p></div>
+  <div class="Daieisho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120003.jpg" width="135px"><p>大栄翔</p></div>
+  <div class="Endo"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130036.jpg" width="135px"><p>遠藤</p></div>
+  <div class="Ikioi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050033.jpg" width="135px"><p>勢</p></div>
+  <div class="Kotoyuki"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080032.jpg" width="135px"><p>琴勇輝</p></div>
+  <div class="Daishomaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140033.jpg" width="135px"><p>大翔丸</p></div>
+  <div class="Daiamami"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160002.jpg" width="135px"><p>大奄美</p></div>
+  <div class="Takanosho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100039.jpg" width="135px"><p>隆の勝</p></div>
+  <div class="Toyonoshima"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020008.jpg" width="135px"><p>豊ノ島</p></div>
+  <div class="Akiseyama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080002.jpg" width="135px"><p>明瀬山</p></div>
+  <div class="Mitoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170047.jpg" width="135px"><p>水戸龍</p></div>
+  <div class="Jokoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110055.jpg" width="135px"><p>常幸龍</p></div>
+  <div class="Ichinojo"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130077.jpg" width="135px"><p>逸ノ城</p></div>
+  <div class="Mitakeumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150032.jpg" width="135px"><p>御嶽海</p></div>
+  <div class="Daishoho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130002.jpg" width="135px"><p>大翔鵬</p></div>
+  <div class="Ishiura"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130013.jpg" width="135px"><p>石浦</p></div>
+  <div class="Chiyomaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070085.jpg" width="135px"><p>千代丸</p></div>
+  <div class="Tobizaru"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150005.jpg" width="135px"><p>翔猿</p></div>
+  <div class="Sokokurai"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20030109.jpg" width="135px"><p>蒼国来</p></div>
+  <div class="Tamawashi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20040005.jpg" width="135px"><p>玉鷲</p></div>
+  <div class="Abi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130059.jpg" width="135px"><p>阿炎</p></div>
+  <div class="Meisei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110029.jpg" width="135px"><p>明生</p></div>
+  <div class="Chiyoshoma"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090066.jpg" width="135px"><p>千代翔馬</p></div>
+  <div class="Onosho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130005.jpg" width="135px"><p>阿武咲</p></div>
+  <div class="Asanoyama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160019.jpg" width="135px"><p>朝乃山</p></div>
+  <div class="Tokushoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090002.jpg" width="135px"><p>徳勝龍</p></div>
+  <div class="Hidenoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120049.jpg" width="135px"><p>英乃海</p></div>
+  <div class="Okinoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050003.jpg" width="135px"><p>隠岐の海</p></div>
+  <div class="Kiribayama"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150034.jpg" width="135px"><p>霧馬山</p></div>
+  <div class="Tsurugisho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140002.jpg" width="135px"><p>剣翔</p></div>
+  <div class="Hakuho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20002320.jpg" width="135px"><p>白鵬</p></div>
+  <div class="Tochinoshin"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060028.jpg" width="135px"><p>栃ノ心</p></div>
+  <div class="Wakamotoharu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110065.jpg" width="135px"><p>若元春</p></div>
+  <div class="Churanoumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160048.jpg" width="135px"><p>美ノ海</p></div>
+  <div class="Kotonowaka"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150081.jpg" width="135px"><p>琴ノ若</p></div>
+  <div class="Kizakiumi"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20180019.jpg" width="135px"><p>木崎海</p></div>
+  <div class="Hoshoryu"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170096.jpg" width="135px"><p>豊昇龍</p></div>
+  <div class="Chiyootori"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080084.jpg" width="135px"><p>千代鳳</p></div>
+  <div class="Asagyokusei"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160013.jpg" width="135px"><p>朝玉勢</p></div>
+  <div class="Akua"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100090.jpg" width="135px"><p>天空海</p></div>
+  <div class="Kotoshoho"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170094.jpg" width="135px"><p>琴勝峰</p></div>
+  <div class="Terunofuji"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110008.jpg" width="135px"><p>照ノ富士</p></div>
+</div>
+
+<!-- 相手 -->
+<div class="opponent">
+  <div class="Kisenosato3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020024.jpg" width="135px"><p>稀勢の里</p></div>
+  <div class="Myogiryu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090065.jpg" width="135px"><p>妙義龍</p></div>
+  <div class="Kakuryu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20010035.jpg" width="135px"><p>鶴竜</p></div>
+  <div class="Takayasu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050022.jpg" width="135px"><p>高安</p></div>
+  <div class="Nishikigi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060025.jpg" width="135px"><p>錦木</p></div>
+  <div class="Hokutofuji3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150042.jpg" width="135px"><p>北勝富士</p></div>
+  <div class="Takakeisho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140083.jpg" width="135px"><p>貴景勝</p></div>
+  <div class="Shohozan3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060043.jpg" width="135px"><p>松鳳山</p></div>
+  <div class="Kotoshogiku3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020002.jpg" width="135px"><p>琴奨菊</p></div>
+  <div class="Aoiyama3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090067.jpg" width="135px"><p>碧山</p></div>
+  <div class="Chiyotairyu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110015.jpg" width="135px"><p>千代大龍</p></div>
+  <div class="Ryuden3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060023.jpg" width="135px"><p>竜電</p></div>
+  <div class="Kaisei3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060091.jpg" width="135px"><p>魁聖</p></div>
+  <div class="Takarafuji3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090004.jpg" width="135px"><p>宝富士</p></div>
+  <div class="Sadanoumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20030054.jpg" width="135px"><p>佐田の海</p></div>
+  <div class="Kagayaki3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100029.jpg" width="135px"><p>輝</p></div>
+  <div class="Yago3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170069.jpg" width="135px"><p>矢後</p></div>
+  <div class="Yutakayama3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160020.jpg" width="135px"><p>豊山</p></div>
+  <div class="Kotoeko3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070057.jpg" width="135px"><p>琴恵光</p></div>
+  <div class="Chiyonokuni3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060071.jpg" width="135px"><p>千代の国</p></div>
+  <div class="Terutsuyoshi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100052.jpg" width="135px"><p>照強</p></div>
+  <div class="Takagenji3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130040.jpg" width="135px"><p>貴源治</p></div>
+  <div class="Aminishiki3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20001080.jpg" width="135px"><p>安美錦</p></div>
+  <div class="Tomokaze3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170071.jpg" width="135px"><p>友風</p></div>
+  <div class="Wakatakakage3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170011.jpg" width="135px"><p>若隆景</p></div>
+  <div class="Hakuyozan3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110026.jpg" width="135px"><p>白鷹山</p></div>
+  <div class="Azumaryu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080097.jpg" width="135px"><p>東龍</p></div>
+  <div class="Enho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170053.jpg" width="135px"><p>炎鵬</p></div>
+  <div class="Kyokutaisei3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080001.jpg" width="135px"><p>旭大星</p></div>
+  <div class="Arawashi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020093.jpg" width="135px"><p>荒鷲</p></div>
+  <div class="Shimanoumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120047.jpg" width="135px"><p>志摩ノ海</p></div>
+  <div class="Takekaze3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020068.jpg" width="135px"><p>豪風</p></div>
+  <div class="Kyokushuho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070084.jpg" width="135px"><p>旭秀鵬</p></div>
+  <div class="Chiyonoumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150060.jpg" width="135px"><p>千代の海</p></div>
+  <div class="Gagamaru3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050119.jpg" width="135px"><p>臥牙丸</p></div>
+  <div class="Tochiozan3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050013.jpg" width="135px"><p>栃煌山</p></div>
+  <div class="Shodai3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140019.jpg" width="135px"><p>正代</p></div>
+  <div class="Yoshikaze3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20040026.jpg" width="135px"><p>嘉風</p></div>
+  <div class="Daieisho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120003.jpg" width="135px"><p>大栄翔</p></div>
+  <div class="Endo3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130036.jpg" width="135px"><p>遠藤</p></div>
+  <div class="Ikioi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050033.jpg" width="135px"><p>勢</p></div>
+  <div class="Kotoyuki3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080032.jpg" width="135px"><p>琴勇輝</p></div>
+  <div class="Daishomaru3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140033.jpg" width="135px"><p>大翔丸</p></div>
+  <div class="Daiamami3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160002.jpg" width="135px"><p>大奄美</p></div>
+  <div class="Takanosho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100039.jpg" width="135px"><p>隆の勝</p></div>
+  <div class="Toyonoshima3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20020008.jpg" width="135px"><p>豊ノ島</p></div>
+  <div class="Akiseyama3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080002.jpg" width="135px"><p>明瀬山</p></div>
+  <div class="Mitoryu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170047.jpg" width="135px"><p>水戸龍</p></div>
+  <div class="Jokoryu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110055.jpg" width="135px"><p>常幸龍</p></div>
+  <div class="Ichinojo3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130077.jpg" width="135px"><p>逸ノ城</p></div>
+  <div class="Mitakeumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150032.jpg" width="135px"><p>御嶽海</p></div>
+  <div class="Daishoho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130002.jpg" width="135px"><p>大翔鵬</p></div>
+  <div class="Ishiura3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130013.jpg" width="135px"><p>石浦</p></div>
+  <div class="Chiyomaru3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20070085.jpg" width="135px"><p>千代丸</p></div>
+  <div class="Tobizaru3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150005.jpg" width="135px"><p>翔猿</p></div>
+  <div class="Sokokurai3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20030109.jpg" width="135px"><p>蒼国来</p></div>
+  <div class="Tamawashi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20040005.jpg" width="135px"><p>玉鷲</p></div>
+  <div class="Abi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130059.jpg" width="135px"><p>阿炎</p></div>
+  <div class="Meisei3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110029.jpg" width="135px"><p>明生</p></div>
+  <div class="Chiyoshoma3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090066.jpg" width="135px"><p>千代翔馬</p></div>
+  <div class="Onosho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20130005.jpg" width="135px"><p>阿武咲</p></div>
+  <div class="Asanoyama3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160019.jpg" width="135px"><p>朝乃山</p></div>
+  <div class="Tokushoryu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20090002.jpg" width="135px"><p>徳勝龍</p></div>
+  <div class="Hidenoumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20120049.jpg" width="135px"><p>英乃海</p></div>
+  <div class="Okinoumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20050003.jpg" width="135px"><p>隠岐の海</p></div>
+  <div class="Kiribayama3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150034.jpg" width="135px"><p>霧馬山</p></div>
+  <div class="Tsurugisho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20140002.jpg" width="135px"><p>剣翔</p></div>
+  <div class="Hakuho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20002320.jpg" width="135px"><p>白鵬</p></div>
+  <div class="Tochinoshin3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20060028.jpg" width="135px"><p>栃ノ心</p></div>
+  <div class="Wakamotoharu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110065.jpg" width="135px"><p>若元春</p></div>
+  <div class="Churanoumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160048.jpg" width="135px"><p>美ノ海</p></div>
+  <div class="Kotonowaka3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20150081.jpg" width="135px"><p>琴ノ若</p></div>
+  <div class="Kizakiumi3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20180019.jpg" width="135px"><p>木崎海</p></div>
+  <div class="Hoshoryu3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170096.jpg" width="135px"><p>豊昇龍</p></div>
+  <div class="Chiyootori3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20080084.jpg" width="135px"><p>千代鳳</p></div>
+  <div class="Asagyokusei3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20160013.jpg" width="135px"><p>朝玉勢</p></div>
+  <div class="Akua3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20100090.jpg" width="135px"><p>天空海</p></div>
+  <div class="Kotoshoho3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20170094.jpg" width="135px"><p>琴勝峰</p></div>
+  <div class="Terunofuji3"><img src="http://www.sumo.or.jp/img/sumo_data/rikishi/270x474/20110008.jpg" width="135px"><p>照ノ富士</p></div>
+</div>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    var val = Math.floor( Math.random() * 79 ) ;
+    switch(val) {
+      case 0 : var val1 = "Kisenosato,稀勢の里"; $('.Kisenosato3').show(); break;
+      case 1 : var val1 = "Myogiryu,妙義龍"; $('.Myogiryu3').show(); break;
+      case 2 : var val1 = "Kakuryu,鶴竜"; $('.Kakuryu3').show(); break;
+      case 3 : var val1 = "Takayasu,高安"; $('.Takayasu3').show(); break;
+      case 4 : var val1 = "Nishikigi,錦木"; $('.Nishikigi3').show(); break;
+      case 5 : var val1 = "Hokutofuji,北勝富士"; $('.Hokutofuji3').show(); break;
+      case 6 : var val1 = "Takakeisho,貴景勝"; $('.Takakeisho3').show(); break;
+      case 7 : var val1 = "Shohozan,松鳳山"; $('.Shohozan3').show(); break;
+      case 8 : var val1 = "Kotoshogiku,琴奨菊"; $('.Kotoshogiku3').show(); break;
+      case 9 : var val1 = "Aoiyama,碧山"; $('.Aoiyama3').show(); break;
+      case 10 : var val1 = "Chiyotairyu,千代大龍"; $('.Chiyotairyu3').show(); break;
+      case 11 : var val1 = "Ryuden,竜電"; $('.Ryuden3').show(); break;
+      case 12 : var val1 = "Kaisei,魁聖"; $('.Kaisei3').show(); break;
+      case 13 : var val1 = "Takarafuji,宝富士"; $('.Takarafuji3').show(); break;
+      case 14 : var val1 = "Sadanoumi,佐田の海"; $('.Sadanoumi3').show(); break;
+      case 15 : var val1 = "Kagayaki,輝"; $('.Kagayaki3').show(); break;
+      case 16 : var val1 = "Yago,矢後"; $('.Yago3').show(); break;
+      case 17 : var val1 = "Yutakayama,豊山"; $('.Yutakayama3').show(); break;
+      case 18 : var val1 = "Kotoeko,琴恵光"; $('.Kotoeko3').show(); break;
+      case 19 : var val1 = "Chiyonokuni,千代の国"; $('.Chiyonokuni3').show(); break;
+      case 20 : var val1 = "Terutsuyoshi,照強"; $('.Terutsuyoshi3').show(); break;
+      case 21 : var val1 = "Takagen,貴源治"; $('.Takagenji3').show(); break;
+      case 22 : var val1 = "Aminishiki,安美錦"; $('.Aminishiki3').show(); break;
+      case 23 : var val1 = "Tomokaze,友風"; $('.Tomokaze3').show(); break;
+      case 24 : var val1 = "Wakatakakage,若隆景"; $('.Wakatakakage3').show(); break;
+      case 25 : var val1 = "Hakuyozan,白鷹山"; $('.Hakuyozan3').show(); break;
+      case 26 : var val1 = "Azumaryu,東龍"; $('.Azumaryu3').show(); break;
+      case 27 : var val1 = "Enho,炎鵬"; $('.Enho3').show(); break;
+      case 28 : var val1 = "Kyokutaisei,旭大星"; $('.Kyokutaisei3').show(); break;
+      case 29 : var val1 = "Arawashi,荒鷲"; $('.Arawashi3').show(); break;
+      case 30 : var val1 = "Shimanoumi,志摩ノ海"; $('.Shimanoumi3').show(); break;
+      case 31 : var val1 = "Takakaze,豪風"; $('.Takekaze3').show(); break;
+      case 32 : var val1 = "Kyokushuho,旭秀鵬"; $('.Kyokushuho3').show(); break;
+      case 33 : var val1 = "Chiyonoumi,千代の海"; $('.Chiyonoumi3').show(); break;
+      case 34 : var val1 = "Gagamaru,臥牙丸"; $('.Gagamaru3').show(); break;
+      case 35 : var val1 = "Tochiozan,栃煌山"; $('.Tochiozan3').show(); break;
+      case 36 : var val1 = "Shodai,正代"; $('.Shodai3').show(); break;
+      case 37 : var val1 = "Yoshikaze,嘉風"; $('.Yoshikaze3').show(); break;
+      case 38 : var val1 = "Daieisho,大栄翔"; $('.Daieisho3').show(); break;
+      case 39 : var val1 = "Endo,遠藤"; $('.Endo3').show(); break;
+      case 40 : var val1 = "Ikioi,勢"; $('.Ikioi3').show(); break;
+      case 41 : var val1 = "Kotoyuki,琴勇輝"; $('.Kotoyuki3').show(); break;
+      case 42 : var val1 = "Daishomaru,大翔丸"; $('.Daishomaru3').show(); break;
+      case 43 : var val1 = "Daiamami,大奄美"; $('.Daiamami3').show(); break;
+      case 44 : var val1 = "Takanosho,隆の勝"; $('.Takanosho3').show(); break;
+      case 45 : var val1 = "Toyonoshima,豊ノ島"; $('.Toyonoshima3').show(); break;
+      case 46 : var val1 = "Akiseyama,明瀬山"; $('.Akiseyama3').show(); break;
+      case 47 : var val1 = "Mitoryu,水戸龍"; $('.Mitoryu3').show(); break;
+      case 48 : var val1 = "Jokoryu,常幸龍"; $('.Jokoryu3').show(); break;
+      case 49 : var val1 = "Ichinojo,逸ノ城"; $('.Ichinojo3').show(); break;
+      case 50 : var val1 = "Mitakeumi,御嶽海"; $('.Mitakeumi3').show(); break;
+      case 51 : var val1 = "Daishoho,大翔鵬"; $('.Daishoho3').show(); break;
+      case 52 : var val1 = "Ishiura,石浦"; $('.Ishiura3').show(); break;
+      case 53 : var val1 = "Chiyomaru,千代丸"; $('.Chiyomaru3').show(); break;
+      case 54 : var val1 = "Tobizaru,翔猿"; $('.Tobizaru3').show(); break;
+      case 55 : var val1 = "Sokokurai,蒼国来"; $('.Sokokurai3').show(); break;
+      case 56 : var val1 = "Tamawashi,玉鷲"; $('.Tamawashi3').show(); break;
+      case 57 : var val1 = "Abi,阿炎"; $('.Abi3').show(); break;
+      case 58 : var val1 = "Meisei,明生"; $('.Meisei3').show(); break;
+      case 59 : var val1 = "Chiyoshoma,千代翔馬"; $('.Chiyoshoma3').show(); break;
+      case 60 : var val1 = "Onosho,阿武咲"; $('.Onosho3').show(); break;
+      case 61 : var val1 = "Asanoyama,朝乃山"; $('.Asanoyama3').show(); break;
+      case 62 : var val1 = "Tokushoryu,徳勝龍"; $('.Tokushoryu3').show(); break;
+      case 63 : var val1 = "Hidenoumi,英乃海"; $('.Hidenoumi3').show(); break;
+      case 64 : var val1 = "Okinoumi,隠岐の海"; $('.Okinoumi3').show(); break;
+      case 65 : var val1 = "Kibarayama,霧馬山"; $('.Kiribayama3').show(); break;
+      case 66 : var val1 = "Tsurugisho,剣翔"; $('.Tsurugisho3').show(); break;
+      case 67 : var val1 = "Hakuho,白鵬"; $('.Hakuho3').show(); break;
+      case 68 : var val1 = "Tochinoshin,栃ノ心"; $('.Tochinoshin3').show(); break;
+      case 69 : var val1 = "Wakamotoharu,若元春"; $('.Wakamotoharu3').show(); break;
+      case 70 : var val1 = "Churanoumi,美ノ海"; $('.Churanoumi3').show(); break;
+      case 71 : var val1 = "Kotonowaka,琴ノ若"; $('.Kotonowaka3').show(); break;
+      case 72 : var val1 = "Kizakiumi,木崎海"; $('.Kizakiumi3').show(); break;
+      case 73 : var val1 = "Hoshoryu,豊昇龍"; $('.Hoshoryu3').show(); break;
+      case 74 : var val1 = "Chiyootori,千代鳳"; $('.Chiyootori3').show(); break;
+      case 75 : var val1 = "Asagyokusei,朝玉勢"; $('.Asagyokusei3').show(); break;
+      case 76 : var val1 = "Akua,天空海"; $('.Akua3').show(); break;
+      case 77 : var val1 = "Kotoshoho,琴勝峰"; $('.Kotoshoho3').show(); break;
+      case 78 : var val1 = "Terunofuji,照ノ富士"; $('.Terunofuji3').show(); break;
+    }
+    function secret() {
+      $('.Kisenosato').hide();
+      $('.Myogiryu').hide();
+      $('.Kakuryu').hide();
+      $('.Takayasu').hide();
+      $('.Nishikigi').hide();
+      $('.Hokutofuji').hide();
+      $('.Takakeisho').hide();
+      $('.Shohozan').hide();
+      $('.Kotoshogiku').hide();
+      $('.Aoiyama').hide();
+      $('.Chiyotairyu').hide();
+      $('.Ryuden').hide();
+      $('.Kaisei').hide();
+      $('.Takarafuji').hide();
+      $('.Sadanoumi').hide();
+      $('.Kagayaki').hide();
+      $('.Yago').hide();
+      $('.Yutakayama').hide();
+      $('.Kotoeko').hide();
+      $('.Chiyonokuni').hide();
+      $('.Terutsuyoshi').hide();
+      $('.Takagenji').hide();
+      $('.Aminishiki').hide();
+      $('.Tomokaze').hide();
+      $('.Wakatakakage').hide();
+      $('.Hakuyozan').hide();
+      $('.Azumaryu').hide();
+      $('.Enho').hide();
+      $('.Kyokutaisei').hide();
+      $('.Arawashi').hide();
+      $('.Shimanoumi').hide();
+      $('.Takekaze').hide();
+      $('.Kyokushuho').hide();
+      $('.Chiyonoumi').hide();
+      $('.Gagamaru').hide();
+      $('.Tochiozan').hide();
+      $('.Shodai').hide();
+      $('.Yoshikaze').hide();
+      $('.Daieisho').hide();
+      $('.Endo').hide();
+      $('.Ikioi').hide();
+      $('.Kotoyuki').hide();
+      $('.Daishomaru').hide();
+      $('.Daiamami').hide();
+      $('.Takanosho').hide();
+      $('.Toyonoshima').hide();
+      $('.Akiseyama').hide();
+      $('.Mitoryu').hide();
+      $('.Jokoryu').hide();
+      $('.Ichinojo').hide();
+      $('.Mitakeumi').hide();
+      $('.Daishoho').hide();
+      $('.Ishiura').hide();
+      $('.Chiyomaru').hide();
+      $('.Tobizaru').hide();
+      $('.Sokokurai').hide();
+      $('.Tamawashi').hide();
+      $('.Abi').hide();
+      $('.Meisei').hide();
+      $('.Chiyoshoma').hide();
+      $('.Onosho').hide();
+      $('.Asanoyama').hide();
+      $('.Tokushoryu').hide();
+      $('.Hidenoumi').hide();
+      $('.Okinoumi').hide();
+      $('.Kiribayama').hide();
+      $('.Tsurugisho').hide();
+      $('.Hakuho').hide();
+      $('.Tochinoshin').hide();
+      $('.Wakamotoharu').hide();
+      $('.Churanoumi').hide();
+      $('.Kotonowaka').hide();
+      $('.Kizakiumi').hide();
+      $('.Hoshoryu').hide();
+      $('.Chiyootori').hide();
+      $('.Asagyokusei').hide();
+      $('.Akua').hide();
+      $('.Kotoshoho').hide();
+      $('.Terunofuji').hide();
+    }
+    function send(val2) {
+      $('#submit').val(val2+','+val1)
+    }
+    $("#Kisenosato").on('click', function () { send('Kisenosato,稀勢の里'); secret(); $('.Kisenosato').show(); });
+    $("#Myogiryu").on('click', function() { send('Myogiryu,妙義龍'); secret(); $('.Myogiryu').show(); });
+    $("#Kakuryu").on('click', function() { send('Kakuryu,鶴竜'); secret(); $('.Kakuryu').show(); });
+    $("#Takayasu").on('click', function() { send('Takayasu,高安'); secret(); $('.Takayasu').show(); });
+    $("#Nishikigi").on('click', function() { send('Nishikigi,錦木'); secret(); $('.Nishikigi').show(); });
+    $("#Hokutofuji").on('click', function() { send('Hokutofuji,北勝富士'); secret(); $('.Hokutofuji').show(); });
+    $("#Takakeisho").on('click', function() { send('Takakeisho,貴景勝'); secret(); $('.Takakeisho').show(); });
+    $("#Shohozan").on('click', function() { send('Shohozan,松鳳山'); secret(); $('.Shohozan').show(); });
+    $("#Kotoshogiku").on('click', function() { send('Kotoshogiku,琴奨菊'); secret(); $('.Kotoshogiku').show(); });
+    $("#Aoiyama").on('click', function() { send('Aoiyama,碧山'); secret(); $('.Aoiyama').show(); });
+    $("#Chiyotairyu").on('click', function() { send('Chiyotairyu,千代大龍'); secret(); $('.Chiyotairyu').show(); });
+    $("#Ryuden").on('click', function() { send('Ryuden,竜電'); secret(); $('.Ryuden').show(); });
+    $("#Kaisei").on('click', function() { send('Kaisei,魁聖'); secret(); $('.Kaisei').show(); });
+    $("#Takarafuji").on('click', function() { send('Takarafuji,宝富士'); secret(); $('.Takarafuji').show(); });
+    $("#Sadanoumi").on('click', function() { send('Sadanoumi,佐田の海'); secret(); $('.Sadanoumi').show(); });
+    $("#Kagayaki").on('click', function() { send('Kagayaki,輝'); secret(); $('.Kagayaki').show(); });
+    $("#Yago").on('click', function() { send('Yago,矢後'); secret(); $('.Yago').show(); });
+    $("#Yutakayama").on('click', function() { send('Yutakayama,豊山'); secret(); $('.Yutakayama').show(); });
+    $("#Kotoeko").on('click', function() { send('Kotoeko,琴恵光'); secret(); $('.Kotoeko').show(); });
+    $("#Chiyonokuni").on('click', function() { send('Chiyonokuni,千代の国'); secret(); $('.Chiyonokuni').show(); });
+    $("#Terutsuyoshi").on('click', function() { send('Terutsuyoshi,照強'); secret(); $('.Terutsuyoshi').show(); });
+    $("#Takagenji").on('click', function() { send('Takagenji,貴源治'); secret(); $('.Takagenji').show(); });
+    $("#Aminishiki").on('click', function() { send('Aminishiki,安美錦'); secret(); $('.Aminishiki').show(); });
+    $("#Tomokaze").on('click', function() { send('Tomokaze,友風'); secret(); $('.Tomokaze').show(); });
+    $("#Wakatakakage").on('click', function() { send('Wakatakakage,若隆景'); secret(); $('.Wakatakakage').show(); });
+    $("#Hakuyozan").on('click', function() { send('Hakuyozan,白鷹山'); secret(); $('.Hakuyozan').show(); });
+    $("#Azumaryu").on('click', function() { send('Azumaryu,東龍'); secret(); $('.Azumaryu').show(); });
+    $("#Enho").on('click', function() { send('Enho,炎鵬'); secret(); $('.Enho').show(); });
+    $("#Kyokutaisei").on('click', function() { send('Kyokutaisei,旭大星'); secret(); $('.Kyokutaisei').show(); });
+    $("#Arawashi").on('click', function() { send('Arawashi,荒鷲'); secret(); $('.Arawashi').show(); });
+    $("#Shimanoumi").on('click', function() { send('Shimanoumi,志摩ノ海'); secret(); $('.Shimanoumi').show(); });
+    $("#Takekaze").on('click', function() { send('Takekaze,豪風'); secret(); $('.Takekaze').show(); });
+    $("#Kyokushuho").on('click', function() { send('Kyokushuho,旭秀鵬'); secret(); $('.Kyokushuho').show(); });
+    $("#Chiyonoumi").on('click', function() { send('Chiyonoumi,千代の海'); secret(); $('.Chiyonoumi').show(); });
+    $("#Gagamaru").on('click', function() { send('Gagamaru,臥牙丸'); secret(); $('.Gagamaru').show(); });
+    $("#Tochiozan").on('click', function() { send('Tochiozan,栃煌山'); secret(); $('.Tochiozan').show(); });
+    $("#Shodai").on('click', function() { send('Shodai,正代'); secret(); $('.Shodai').show(); });
+    $("#Yoshikaze").on('click', function() { send('Yoshikaze,嘉風'); secret(); $('.Yoshikaze').show(); });
+    $("#Daieisho").on('click', function() { send('Daieisho,大栄翔'); secret(); $('.Daieisho').show(); });
+    $("#Endo").on('click', function() { send('Endo,遠藤'); secret(); $('.Endo').show(); });
+    $("#Ikioi").on('click', function() { send('Ikioi,勢'); secret(); $('.Ikioi').show(); });
+    $("#Kotoyuki").on('click', function() { send('Kotoyuki,琴勇輝'); secret(); $('.Kotoyuki').show(); });
+    $("#Daishomaru").on('click', function() { send('Daishomaru,大翔丸'); secret(); $('.Daishomaru').show(); });
+    $("#Daiamami").on('click', function() { send('Daiamami,大奄美'); secret(); $('.Daiamami').show(); });
+    $("#Takanosho").on('click', function() { send('Takanosho,隆の勝'); secret(); $('.Takanosho').show(); });
+    $("#Toyonoshima").on('click', function() { send('Toyonoshima,豊ノ島'); secret(); $('.Toyonoshima').show(); });
+    $("#Akiseyama").on('click', function() { send('Akiseyama,明瀬山'); secret(); $('.Akiseyama').show(); });
+    $("#Mitoryu").on('click', function() { send('Mitoryu,水戸龍'); secret(); $('.Mitoryu').show(); });
+    $("#Jokoryu").on('click', function() { send('Jokoryu,常幸龍'); secret(); $('.Jokoryu').show(); });
+    $("#Ichinojo").on('click', function() { send('Ichinojo,逸ノ城'); secret(); $('.Ichinojo').show(); });
+    $("#Mitakeumi").on('click', function() { send('Mitakeumi,御嶽海'); secret(); $('.Mitakeumi').show(); });
+    $("#Daishoho").on('click', function() { send('Daishoho,大翔鵬'); secret(); $('.Daishoho').show(); });
+    $("#Ishiura").on('click', function() { send('Ishiura,石浦'); secret(); $('.Ishiura').show(); });
+    $("#Chiyomaru").on('click', function() { send('Chiyomaru,千代丸'); secret(); $('.Chiyomaru').show(); });
+    $("#Tobizaru").on('click', function() { send('Tobizaru,翔猿'); secret(); $('.Tobizaru').show(); });
+    $("#Sokokurai").on('click', function() { send('Sokokurai,蒼国来'); secret(); $('.Sokokurai').show(); });
+    $("#Tamawashi").on('click', function() { send('Tamawashi,玉鷲'); secret(); $('.Tamawashi').show(); });
+    $("#Abi").on('click', function() { send('Abi,阿炎'); secret(); $('.Abi').show(); });
+    $("#Meisei").on('click', function() { send('Meisei,明生'); secret(); $('.Meisei').show(); });
+    $("#Chiyoshoma").on('click', function() { send('Chiyoshoma,千代翔馬'); secret(); $('.Chiyoshoma').show(); });
+    $("#Onosho").on('click', function() { send('Onosho,阿武咲'); secret(); $('.Onosho').show(); });
+    $("#Asanoyama").on('click', function() { send('Asanoyama,朝乃山'); secret(); $('.Asanoyama').show(); });
+    $("#Tokushoryu").on('click', function() { send('Tokushoryu,徳勝龍'); secret(); $('.Tokushoryu').show(); });
+    $("#Hidenoumi").on('click', function() { send('Hidenoumi,英乃海'); secret(); $('.Hidenoumi').show(); });
+    $("#Okinoumi").on('click', function() { send('Okinoumi,隠岐の海'); secret(); $('.Okinoumi').show(); });
+    $("#Kiribayama").on('click', function() { send('Kiribayama,霧馬山'); secret(); $('.Kiribayama').show(); });
+    $("#Tsurugisho").on('click', function() { send('Tsurugisho,剣翔'); secret(); $('.Tsurugisho').show(); });
+    $("#Hakuho").on('click', function() { send('Hakuho,白鵬'); secret(); $('.Hakuho').show(); });
+    $("#Tochinoshin").on('click', function() { send('Tochinoshin,栃ノ心'); secret(); $('.Tochinoshin').show(); });
+    $("#Wakamotoharu").on('click', function() { send('Wakamotoharu,若元春'); secret(); $('.Wakamotoharu').show(); });
+    $("#Churanoumi").on('click', function() { send('Churanoumi,美ノ海'); secret(); $('.Churanoumi').show(); });
+    $("#Kotonowaka").on('click', function() { send('Kotonowaka,琴ノ若'); secret(); $('.Kotonowaka').show(); });
+    $("#Kizakiumi").on('click', function() { send('Kizakiumi,木崎海'); secret(); $('.Kizakiumi').show(); });
+    $("#Hoshoryu").on('click', function() { send('Hoshoryu,豊昇龍'); secret(); $('.Hoshoryu').show(); });
+    $("#Chiyootori").on('click', function() { send('Chiyootori,千代鳳'); secret(); $('.Chiyootori').show(); });
+    $("#Asagyokusei").on('click', function() { send('Asagyokusei,朝玉勢'); secret(); $('.Asagyokusei').show(); });
+    $("#Akua").on('click', function() { send('Akua,天空海'); secret(); $('.Akua').show(); });
+    $("#Kotoshoho").on('click', function() { send('Kotoshoho,琴勝峰'); secret(); $('.Kotoshoho').show(); });
+    $("#Terunofuji").on('click', function() { send('Terunofuji,照ノ富士'); secret(); $('.Terunofuji').show(); });
+  })
+</script>
+
+{% endblock %}
