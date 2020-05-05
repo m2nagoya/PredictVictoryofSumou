@@ -9,4 +9,4 @@ Sumou vs. >> [ https://dn-sumo.herokuapp.com ]
 This software is released under the MIT License, see LICENSE.
 
 ## AUTHOR
-[debunagoya] ( https://github.com/debunagoya )
+[m2nagoya] ( https://github.com/m2nagoya )
